@@ -1,0 +1,1 @@
+La escena con los objetos es yaescene, en la carpeta Scenes
