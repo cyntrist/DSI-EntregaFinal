@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="CardTemplate" src="project://database/Assets/ProyectoFinal/CardTemplate.uxml?fileID=9197481963319205126&amp;guid=e6292bd83fdea3d478487463df039cf9&amp;type=3#CardTemplate" />
+    <ui:Instance template="CardTemplate" name="CardTemplate" />
+</ui:UXML>

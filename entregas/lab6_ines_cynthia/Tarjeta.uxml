@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="tarjeta" style="flex-grow: 1; background-color: rgb(58, 66, 142); border-left-color: rgba(197, 199, 217, 0.8); border-right-color: rgba(197, 199, 217, 0.8); border-top-color: rgba(197, 199, 217, 0.8); border-bottom-color: rgba(197, 199, 217, 0.8); border-left-width: 19px; border-right-width: 19px; border-top-width: 19px; border-bottom-width: 19px; border-top-left-radius: 13px; border-bottom-left-radius: 13px; border-top-right-radius: 13px; border-bottom-right-radius: 13px;">
+        <ui:VisualElement name="icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;hydro&apos;); flex-basis: auto; flex-shrink: 1; height: 50%; width: 75%; align-self: center;" />
+        <ui:VisualElement name="mid" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: center;">
+            <ui:Label tabindex="-1" text="HYDRO" display-tooltip-when-elided="true" name="name" style="white-space: nowrap; font-size: 30px; color: rgb(217, 218, 238); -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bot" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: center;">
+            <ui:Label tabindex="-1" text="FURINA" display-tooltip-when-elided="true" name="element" style="white-space: nowrap; font-size: 30px; color: rgb(255, 255, 255); -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

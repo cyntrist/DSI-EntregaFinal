@@ -1,0 +1,37 @@
+.normalButton {
+    flex-direction: column-reverse;
+    width: 75%;
+    height: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+    background-color: rgb(116, 65, 135);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    border-left-color: rgba(149, 149, 149, 0);
+    border-right-color: rgba(149, 149, 149, 0);
+    border-top-color: rgba(149, 149, 149, 0);
+    border-bottom-color: rgba(149, 149, 149, 0);
+    -unity-text-align: middle-left;
+}
+
+.selectedButton {
+    background-color: rgb(185, 126, 207);
+}
+
+.basestyle {
+    flex-grow: 1;
+    background-color: rgba(113, 52, 130, 0.73);
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.weirdButton {
+    border-left-color: rgba(188, 63, 63, 0);
+    border-right-color: rgba(188, 63, 63, 0);
+    border-top-color: rgba(188, 63, 63, 0);
+    border-bottom-color: rgba(188, 63, 63, 0);
+    background-color: rgb(200, 74, 112);
+}

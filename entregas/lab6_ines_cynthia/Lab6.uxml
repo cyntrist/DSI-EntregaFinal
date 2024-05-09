@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="base" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/images/Captura%20de%20pantalla%20(7).png?fileID=21300000&amp;guid=4c528d1210107c84abcfd7b535e9eb78&amp;type=3#Captura de pantalla (7)&apos;); width: 100%; height: 100%; flex-direction: row;">
+        <ui:VisualElement name="izq" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: flex-start; align-items: center; width: 122px; flex-direction: row; height: 577px;" />
+        <ui:VisualElement name="ctr" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: -201px;">
+            <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="dch" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: 7%;">
+            <ui:VisualElement name="top" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: initial; height: -41px; width: -127px;">
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: -47px; flex-basis: initial;">
+                    <ui:VisualElement name="name" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: initial;">
+                        <ui:TextField picking-mode="Ignore" label="NAME" value="Furina" name="input_name" style="flex-basis: initial; height: auto; width: -150px; background-color: rgba(116, 147, 214, 0.62);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; height: 260px;">
+                    <ui:VisualElement name="cont_elems" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: initial;">
+                        <ui:VisualElement name="elem" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;electro&apos;); flex-basis: initial; width: 100%; height: 10000%; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;" />
+                        <ui:VisualElement name="elem" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;anemo&apos;); flex-basis: initial; width: 100%; height: 10000%; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;" />
+                        <ui:VisualElement name="elem" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;hydro&apos;); flex-basis: initial; width: 100%; height: 10000%; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;" />
+                        <ui:VisualElement name="elem" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: resource(&apos;pyro&apos;); flex-basis: initial; width: 100%; height: 10000%; border-left-width: 5px; border-right-width: 5px; border-top-width: 5px; border-bottom-width: 5px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 19px; flex-basis: initial;">
+                    <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: initial;">
+                        <ui:TextField picking-mode="Ignore" label="ELEMENT" value="hydro" name="input_element" style="flex-basis: initial; height: auto; width: -150px; background-color: rgba(116, 147, 214, 0.62);" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: -47px; flex-basis: initial;">
+                    <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-basis: initial; align-self: center;">
+                        <ui:Toggle label="MODIFY" name="modify" style="background-color: rgba(133, 131, 200, 0.74); height: 31px;" />
+                        <ui:Button text="...." display-tooltip-when-elided="true" name="create" style="background-color: rgb(119, 133, 188); border-top-left-radius: 18px; border-bottom-left-radius: 18px; border-top-right-radius: 18px; border-bottom-right-radius: 18px;" />
+                        <ui:Button text="save" display-tooltip-when-elided="true" name="save" style="background-color: rgb(119, 133, 188); border-top-left-radius: 18px; border-bottom-left-radius: 18px; border-top-right-radius: 18px; border-bottom-right-radius: 18px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

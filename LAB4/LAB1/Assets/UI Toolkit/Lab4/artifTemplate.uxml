@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="artif" class="artif" style="top: 68px; left: -10px;" />
+</ui:UXML>

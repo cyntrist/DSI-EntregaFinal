@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="plantilla1" style="flex-grow: 1; background-color: rgb(178, 107, 162); -unity-background-image-tint-color: rgba(152, 46, 46, 0); align-self: center; align-items: auto; left: auto; height: 136px; width: 239px; flex-direction: row;">
+        <ui:VisualElement name="click" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;" />
+        <ui:VisualElement name="name" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+            <ui:Label tabindex="-1" text="Yae Miko" display-tooltip-when-elided="true" name="name" style="white-space: nowrap;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+            <ui:Label tabindex="-1" text="Electro" display-tooltip-when-elided="true" name="element" style="white-space: nowrap;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

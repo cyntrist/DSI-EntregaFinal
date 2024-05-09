@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/usss/buttons.uss?fileID=7433441132597879392&amp;guid=b10bc8789fcfeca4482c6ff3be0b5d7a&amp;type=3#buttons" />
+    <ui:VisualElement name="options" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column; flex-wrap: nowrap; flex-basis: 0; width: 150px; height: 140px; max-height: 40%; max-width: 20%; min-height: 30%; min-width: 15%; top: 8%; right: 675px; left: 2%; justify-content: flex-start; align-items: center; align-self: stretch; margin-top: 10px; margin-bottom: 10px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:Button text="Attributes" display-tooltip-when-elided="true" name="Attributes" class="normalButton" style="height: 29%; width: 79%; padding-left: 4px; padding-right: 4px; padding-top: 4px; padding-bottom: 4px;" />
+        <ui:Button text="Weapons" display-tooltip-when-elided="true" name="Weapons" class="weirdButton" style="background-color: rgb(200, 74, 112); width: 100px; height: 50px;" />
+        <ui:Button text="Artifacts" display-tooltip-when-elided="true" name="Artifacts" class="normalButton" />
+        <ui:Button text="Constellation" display-tooltip-when-elided="true" name="Constellation" class="normalButton" />
+        <ui:Button text="Talents" display-tooltip-when-elided="true" name="Talents" class="weirdButton" />
+        <ui:Button text="Profile" display-tooltip-when-elided="true" name="Profile" class="normalButton" />
+    </ui:VisualElement>
+</ui:UXML>

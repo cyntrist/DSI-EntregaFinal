@@ -1,0 +1,75 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="optionsTemplate" src="project://database/Assets/UI%20Toolkit/Lab4/optionsTemplate.uxml?fileID=9197481963319205126&amp;guid=ded8277a7a2c15648b8fabd9ee05dd71&amp;type=3#optionsTemplate" />
+    <Style src="project://database/Assets/usss/buttons.uss?fileID=7433441132597879392&amp;guid=b10bc8789fcfeca4482c6ff3be0b5d7a&amp;type=3#buttons" />
+    <Style src="project://database/Assets/usss/info.uss?fileID=7433441132597879392&amp;guid=c6c3a54b117b7224c9a1c2615492c773&amp;type=3#info" />
+    <ui:VisualElement name="base" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/images/yae%20moko%20build.png?fileID=2800000&amp;guid=afca024f225da9045b0fdf6805e80f82&amp;type=3#yae moko build&apos;); align-self: stretch; flex-direction: column;">
+        <ui:VisualElement name="selector" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); left: 68px;">
+            <ui:VisualElement name="characterSelect" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); min-height: -10px; min-width: 10px; height: 45px; width: 391px; left: 154px; top: -35px; flex-direction: row; justify-content: space-around;">
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+                <ui:VisualElement name="chara" style="left: 0; top: 35px; height: 39px; width: 34px; min-width: 0; min-height: auto; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(219, 191, 208, 0.55); border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-top-right-radius: 25px; border-bottom-right-radius: 25px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="name_body" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 264px; height: 15px; flex-direction: row; align-items: center; justify-content: space-around; left: 26px; top: 240px;">
+                <ui:TextField picking-mode="Ignore" label="Character Name" value="                 " name="name_input" style="background-color: rgba(195, 95, 180, 0.9); width: 254px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 275px; top: 240px;" />
+            <ui:VisualElement name="element_body" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 264px; height: 15px; flex-direction: column; align-items: center; justify-content: space-around; left: 26px; top: 240px;">
+                <ui:TextField picking-mode="Ignore" label="Element" value="                 " name="element_input" style="background-color: rgba(195, 95, 180, 0.9);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Instance template="optionsTemplate" name="optionsTemplate" style="top: -200px; height: 275px; width: auto;" />
+        <ui:VisualElement name="info" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 22%; height: 92%; right: 33px; top: 55px; align-self: stretch; align-items: stretch; justify-content: center; flex-direction: column; position: absolute; bottom: 172px;">
+            <ui:VisualElement name="character_details" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 178px; width: 75%; max-height: 20%; align-self: stretch; align-items: flex-end; justify-content: space-around;">
+                <ui:VisualElement name="plantilla1" style="flex-grow: 1; background-color: rgb(178, 107, 162); -unity-background-image-tint-color: rgba(152, 46, 46, 0); align-self: center; align-items: auto; left: auto; height: 136px; width: 239px; flex-direction: row;">
+                    <ui:VisualElement name="click" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;" />
+                    <ui:VisualElement name="name" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Yae Miko" display-tooltip-when-elided="true" name="name" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Electro" display-tooltip-when-elided="true" name="element" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="plantilla2" style="flex-grow: 1; background-color: rgb(178, 107, 162); -unity-background-image-tint-color: rgba(152, 46, 46, 0); align-self: center; align-items: auto; left: auto; height: 135px; width: 239px; flex-direction: row;">
+                    <ui:VisualElement name="click" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;" />
+                    <ui:VisualElement name="name" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Yae Miko" display-tooltip-when-elided="true" name="name" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Electro" display-tooltip-when-elided="true" name="element" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="plantilla3" style="flex-grow: 1; background-color: rgb(178, 107, 162); -unity-background-image-tint-color: rgba(152, 46, 46, 0); align-self: center; align-items: auto; left: auto; height: 130px; width: 239px; flex-direction: row;">
+                    <ui:VisualElement name="click" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;" />
+                    <ui:VisualElement name="name" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Yae Miko" display-tooltip-when-elided="true" name="name" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Electro" display-tooltip-when-elided="true" name="element" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="plantilla4" style="flex-grow: 1; background-color: rgb(178, 107, 162); -unity-background-image-tint-color: rgba(152, 46, 46, 0); align-self: center; align-items: auto; left: auto; height: 130px; width: 239px; flex-direction: row;">
+                    <ui:VisualElement name="click" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;" />
+                    <ui:VisualElement name="name" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Yae Miko" display-tooltip-when-elided="true" name="name" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="element" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 244px;">
+                        <ui:Label tabindex="-1" text="Electro" display-tooltip-when-elided="true" name="element" style="white-space: nowrap;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Button text="Artifact Details" display-tooltip-when-elided="true" name="arifact_detials" class="normalButton" style="white-space: nowrap; width: 110px; height: 10%; text-overflow: clip; -unity-text-align: middle-center; right: -28px; top: 7px; border-top-left-radius: 11px; border-bottom-left-radius: 11px; border-top-right-radius: 11px; border-bottom-right-radius: 11px;" />
+            <ui:VisualElement name="obj" class="basestyle" style="align-self: flex-start; height: 86px;">
+                <ui:Button text="Yae Miko" display-tooltip-when-elided="true" class="weirdButton" />
+                <ui:Slider picking-mode="Ignore" label="cunt" value="42" high-value="100" name="cuntiness" style="background-color: rgba(172, 57, 176, 0.69); right: 0; align-self: auto; flex-direction: column; height: 24px;" />
+                <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="cunt" style="-unity-text-align: middle-center; white-space: nowrap; top: 41px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

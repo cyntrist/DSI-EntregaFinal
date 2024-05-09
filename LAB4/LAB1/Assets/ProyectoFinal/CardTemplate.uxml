@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="card" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="background" style="flex-grow: 1; background-color: rgb(176, 141, 62); border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); height: 160px;">
+            <ui:VisualElement name="icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); height: 40%; background-image: url(&apos;project://database/Assets/images/furinaUIicon.png?fileID=21300000&amp;guid=60cb05547d0f7df4090da3973c0b75fb&amp;type=3#furinaUIicon&apos;);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="border" style="flex-grow: 1; background-color: rgb(255, 255, 255); flex-direction: row; justify-content: center; align-self: stretch; height: 40%;">
+            <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-self: flex-start; justify-content: center;">
+                <ui:Label tabindex="-1" text="Lvl." display-tooltip-when-elided="true" name="Lvl" style="font-size: 10px; justify-content: flex-start; align-self: center;" />
+                <ui:Label tabindex="-1" text="81" display-tooltip-when-elided="true" name="value" style="font-size: 10px; align-self: center;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
